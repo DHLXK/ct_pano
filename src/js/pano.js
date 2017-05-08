@@ -1,4 +1,4 @@
-var imgSrc = 'img/'+ location.hash.slice(1) ;
+var imgSrc = './dist/img/'+ location.hash.slice(1) ;
 var camera, scene, renderer;//定义相机、环境、渲染器
 var cameraFov;
 var canvas_placeholder,
