@@ -1,0 +1,116 @@
+/* line 2, ../scss/common/_layout.scss */
+html, body {
+  width: 100%;
+  height: 100%;
+  font-family: Arial, Helvetica, 'Microsoft Yahei';
+}
+
+/* line 8, ../scss/common/_layout.scss */
+html {
+  font-size: 14px;
+}
+
+/* line 12, ../scss/common/_layout.scss */
+body {
+  -webkit-text-size-adjust: none;
+  box-sizing: border-box;
+}
+
+/* line 16, ../scss/common/_layout.scss */
+a {
+  text-decoration: none;
+}
+
+/* line 21, ../scss/common/_layout.scss */
+.clearfix {
+  zoom: 1;
+}
+/* line 23, ../scss/common/_layout.scss */
+.clearfix:after {
+  display: block;
+  content: '';
+  height: 0;
+  clear: both;
+}
+
+/* YUI 3.18.1 */
+/* line 3, ../scss/common/_reset.scss */
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 9, ../scss/common/_reset.scss */
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, textarea, p, blockquote, th, td {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 14, ../scss/common/_reset.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 19, ../scss/common/_reset.scss */
+fieldset, img {
+  border: 0;
+}
+
+/* line 23, ../scss/common/_reset.scss */
+address, caption, cite, code, dfn, em, strong, th, var {
+  font-style: normal;
+  font-weight: normal;
+}
+
+/* line 28, ../scss/common/_reset.scss */
+ol, ul, li {
+  list-style: none;
+}
+
+/* line 32, ../scss/common/_reset.scss */
+caption, th {
+  text-align: left;
+}
+
+/* line 36, ../scss/common/_reset.scss */
+h1, h2, h3, h4, h5, h6 {
+  font-size: 100%;
+  font-weight: normal;
+}
+
+/* line 41, ../scss/common/_reset.scss */
+abbr, acronym {
+  border: 0;
+  font-variant: normal;
+}
+
+/* line 46, ../scss/common/_reset.scss */
+sup {
+  vertical-align: text-top;
+}
+
+/* line 50, ../scss/common/_reset.scss */
+sub {
+  vertical-align: text-bottom;
+}
+
+/* line 54, ../scss/common/_reset.scss */
+input, textarea, select {
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  outline: 0;
+  *font-size: 100%;
+}
+
+/* line 62, ../scss/common/_reset.scss */
+legend {
+  color: #000;
+}
+
+/* line 66, ../scss/common/_reset.scss */
+a {
+  -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+}
